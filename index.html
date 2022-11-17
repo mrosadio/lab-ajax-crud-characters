@@ -13,10 +13,10 @@
     <h1>Ironhack Characters API</h1>
     <div class="characters-container">
       <div class="character-info">
-        <div class="name">Character Name</div>
-        <div class="occupation">Character Occupation</div>
-        <div class="cartoon">Is a Cartoon?</div>
-        <div class="weapon">Character Weapon</div>
+        <div class="name" id="name-char">Character Name</div>
+        <div class="occupation" id="occup-char">Character Occupation</div>
+        <div class="cartoon" id="cartoon-char">Is a Cartoon?</div>
+        <div class="weapon" id="weapon-char">Character Weapon</div>
       </div>
     </div>
     <section class="operations">
@@ -25,12 +25,12 @@
       </div>
       <div class="operation">
         <label for="character-id">Search by ID: </label>
-        <input type="text" name="character-id">
+        <input type="text" name="character-id" id = "select-character">
         <button id="fetch-one">Fetch one</button>
       </div>
       <div class="operation delete">
         <label for="character-id-delete">Delete by ID: </label>
-        <input type="text" name="character-id-delete">
+        <input type="text" name="character-id-delete" id="select-character-delete">
         <button id="delete-one">Delete one</button>
       </div>
 
